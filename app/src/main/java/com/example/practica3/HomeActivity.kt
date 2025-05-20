@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.practica3.MainActivity
+import com.google.firebase.FirebaseApp
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var btnRegistroActivity: Button
@@ -16,6 +17,7 @@ class HomeActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        FirebaseApp.initializeApp(this)
         setContentView(R.layout.activity_home)
 
         //funcion para presionar y redirigir a la vista de registro
