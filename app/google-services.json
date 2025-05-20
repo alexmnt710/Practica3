@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1055336941977",
+    "project_id": "pruebamovil-baa25",
+    "storage_bucket": "pruebamovil-baa25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055336941977:android:0ad722af4bea98cf306b08",
+        "android_client_info": {
+          "package_name": "com.example.practica3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYfsiR3F30MZ-K7D6tdSY9cHfRVtUo-QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

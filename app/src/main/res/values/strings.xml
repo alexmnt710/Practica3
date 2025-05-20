@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Practica 3</string>
+    <!--textos para exportar-->
+    <string name="nombre">Nombres y Apellidos</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="genero">Genero</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="pais">Pais</string>
+    <string name="registrar">Registrarse</string>
+    <string name="resultado">Resultado</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="leer">Leer</string>
+    <string name="jugar">Jugar</string>
+    <string name="dormir">Dormir</string>
+    <string name="limpiar">Limpiar Datos</string>
+
+    <!--hints o placeholders-->
+    <string name="hint_nombre">Escribe tus nombres y apellidos</string>
+    <string name="hint_correo">Escribe tu correo electronico</string>
+    <string name="hint_pais">Selecciona tu pais</string>
+    <string name="hint_resultado">Estos son tu resultados</string>
+
+</resources>
