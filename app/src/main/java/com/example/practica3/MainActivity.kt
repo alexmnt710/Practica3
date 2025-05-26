@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         FirebaseApp.initializeApp(this)
 
-        //inicializarDb()
+        //inici@alizarDb()
         //Asociamos cada variable con su elemento de la vista
         etNombre = findViewById(R.id.etNombre)
         etCorreo = findViewById(R.id.etCorreo)
@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
             if (chkLeer.isChecked) add("Leer")
             if (chkJugar.isChecked) add("Jugar")
             if (chkDormir.isChecked) add("Dormir")
-        }.joinToString { "," }
+        }.joinToString (",")
 
         val pais = spnPaises.selectedItem.toString()
 
@@ -151,6 +151,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Error: ${it.message}",Toast.LENGTH_SHORT).show()
             }
     }
+
+
 
 
     private fun inicializarDb(){
